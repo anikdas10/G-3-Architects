@@ -6,3 +6,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 2rem;
+font-weight: 700;
+color:rgb(19, 19, 19);
+}
+.nav-item{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+font-weight: 500;
+color: rgb(66, 66, 66);
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
